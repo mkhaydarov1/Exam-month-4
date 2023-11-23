@@ -356,4 +356,51 @@ main .locations .cards-loc .card-loc .sec {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+main .families {
+  text-align: center;
+  background-color: #65665C;
+  border-radius: 24px;
+  padding: 50px 0;
+}
+main .families .container {
+  display: block;
+}
+main .families .text1-fam {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px; /* 120% */
+}
+main .families .text2-fam {
+  color: #E7E8E3;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+  padding: 0 250px;
+  margin: 20px 0;
+}
+main .families .btn-3 {
+  width: 137px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #CF6F49;
+}
+main .families .btn-3 a {
+  color: #fff;
+}
+main .families .btn-3:hover {
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .families .btn-3:hover a {
+  color: #000;
 }/*# sourceMappingURL=main.css.map */

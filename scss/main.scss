@@ -36,6 +36,7 @@ ul{
 }
 
 
+
 main{
     .find{
         height: 400px;
@@ -368,6 +369,54 @@ main{
                     font-weight: 400;
                     line-height: 24px; /* 150% */
                 }
+            }
+        }
+    }
+
+    .families{
+        text-align: center;
+        background-color: #65665C;
+        border-radius: 24px;
+        padding: 50px 0;
+        .container{
+            display: block;
+        }
+        .text1-fam{
+            color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 57.6px; /* 120% */
+        }
+        .text2-fam{
+            color: #E7E8E3;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px; /* 150% */
+            padding: 0 250px;
+            margin: 20px 0 ;
+        }
+        .btn-3{
+            width: 137px;
+            height: 50px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            background: #CF6F49;
+            a{
+                color: #fff;
+            }
+        }
+        .btn-3:hover{
+            background: #fff;
+            cursor: pointer;
+            transition: 0.3s;
+            a{
+                color: #000;
             }
         }
     }
